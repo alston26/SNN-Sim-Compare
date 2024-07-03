@@ -18,7 +18,6 @@ In this paper, we delve into the intricacies of spiking neural networks (SNNs) a
 - [Results](#results)
 - [Conclusion](#conclusion)
 - [References](#references)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contact](#contact)
 
@@ -63,19 +62,3 @@ Our comparative study of Nengo and BindsNET reveals that both frameworks offer u
 ## References
 
 A list of references and further reading is provided in the paper.
-
-## Installation
-
-To reproduce the experiments and run the simulations, you need to install the following dependencies:
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/nengo-bindsnet-paper.git
-cd nengo-bindsnet-paper
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-# Install required packages
-pip install -r requirements.txt
